@@ -1,0 +1,346 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+body{
+    background-color: #47548d;
+}
+.margin-navbar{
+    margin-right: 60px;
+}
+p{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.row-dos{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.imagen{
+    /* padding-left: 30px; */
+    padding-top: 10px;
+    width: 500px  ;
+    margin: auto;
+    
+    
+}
+.caracteriticas-index{
+    background-color: rgb(2, 1, 1);
+    margin-top: 20px;
+}
+.instalaciones-container{
+    width: fit-content;
+    margin: auto;
+    padding: 80px 0px
+}
+.lista-instalaciones{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    list-style:circle;
+}
+
+#seccion4{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.prueba1{
+    color: white;
+    margin: auto;
+    width: auto;
+    text-align: justify;
+    margin-top: 15px;
+    
+}
+.lista-direcciones{
+    list-style: none;
+    padding-top: 50px;
+}
+.prueba2{
+    text-align: center; 
+    
+}
+.google{
+    width: 400px;
+    height: 400px;
+    margin-right:20px ;
+   
+}
+.seccion5{
+    background-color:rgb(2, 1, 1) ;
+}
+/* Footer */
+
+.footer-container{
+    color: white;
+}
+.footer-div{
+    text-align: center;
+
+}
+.footer-links{
+    color: white;
+    text-decoration: none;
+}
+.footer-titulos{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(235, 173, 4);
+}
+.textos-colores{
+    color: rgb(235, 173, 4);
+}
+
+.footer-autor{
+    font-style: italic;
+    /* color: rgb(235, 173, 4) */
+}
+#footer-frase{
+    color: rgb(235, 173, 4)
+
+}
+
+/* Actividades.html */
+
+.activ-titulo{
+    color: white;
+    text-align: center;
+    border-top: solid 1px white;
+    padding-top: 20px;
+    color: rgb(235, 173, 4);
+    font-weight: bold;
+    
+}
+.activ-detalle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    
+}
+.activ-horarios{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(224, 207, 158);
+    
+}
+.activ-list{
+    text-align:center;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.651);
+    
+}
+
+.row-activ{
+    text-align: justify;
+}
+
+
+/* Staff.html */
+.row-activ-staff{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.staf-uno{
+    /* width: 0 auto;
+    height: 0 auto; */
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-top: 5px;  
+
+}
+.img-div{
+    width: 50%;
+    /* height: 100%; */
+    /* overflow:hidden; */
+    text-align: center;
+    
+}
+
+.ppp{
+    overflow: auto;
+    text-align: center;
+    
+}
+.staff-list{
+    list-style: none;
+    text-align: center;
+}
+/* ------------- flip-card */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    /* margin-top: 20px; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 20px;
+  }
+  
+  .flip-card-front {
+    background-color:none;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .profes{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* Clases.html */
+
+.titulo-clases{
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    
+
+}
+.promos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.caja{
+    border: solid 2px black;
+    margin:15px;
+    margin-left: 10px;
+    width: 250px;
+    background: #0F1012; 
+    color: #f9f9f9;
+    float: left;
+    padding-right: 5px;
+    padding-left:5px;
+    border-radius: 15px;
+    
+}
+.caja:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.5s;
+    border-radius: 30px;
+    border:solid 1px white;  
+    
+}
+.deal {
+    padding: 10px 0 0 0;
+  }
+
+.deal span {
+    display: block;
+    text-align: center;
+}
+
+.deal span:first-of-type {
+    font-size: 23px;  
+  }
+
+.deal span:last-of-type {
+    font-size: 13px;
+}
+
+.promo .price {
+    display:block;
+    background: #292b2e;
+    margin: 15px 0 10px 0;
+    text-align: center;
+    font-size: 23px;
+    padding: 17px 0 17px 0;
+  }
+
+li {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+
+ 
+
+.scale .price {
+    color: #0789e5;
+}
+
+.pack{
+    color: #e59307;
+
+}
+
+/* Contacto.html */
+
+.container-img-contact{
+   
+    margin: 0 auto;
+    text-align: center;
+}
+.img-contacto-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-contacto{
+    text-align: center;
+}
+
+.container-form{
+  
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom:5px ;
+}
+
+.img-form{
+    margin: 0 auto;
+    display: block;
+}
+.formulario{
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.boton-enviar{
+    text-align: center;
+}
