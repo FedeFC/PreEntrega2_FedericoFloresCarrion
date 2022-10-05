@@ -1,3 +1,135 @@
-/*pruba compilacion*/
+/*prueba compilacion*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #47548d;
+}
+
+p {
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.textos-colores {
+  color: rgb(235, 173, 4);
+}
+
+.margin-navbar {
+  margin-right: 60px;
+}
+
+.footer-container {
+  color: white;
+}
+.footer-container .footer-div {
+  text-align: center;
+}
+.footer-container .footer-div .footer-autor {
+  font-style: italic;
+  /* color: rgb(235, 173, 4) */
+}
+.footer-container .footer-div .footer-autor #footer-frase {
+  color: rgb(235, 173, 4);
+}
+.footer-container .footer-div .footer-links {
+  color: white;
+  text-decoration: none;
+}
+.footer-container .footer-div .footer-titulos {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(235, 173, 4);
+}
+
+.row-dos {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.imagen {
+  /* padding-left: 30px; */
+  padding-top: 10px;
+  width: 500px;
+  margin: auto;
+}
+
+.caracteriticas-index {
+  background-color: rgb(2, 1, 1);
+  margin-top: 20px;
+}
+.caracteriticas-index .instalaciones-container {
+  width: fit-content;
+  margin: auto;
+  padding: 80px 0px;
+}
+.caracteriticas-index .instalaciones-container .lista-instalaciones {
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  list-style: circle;
+}
+
+#seccion4 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.prueba1 {
+  color: white;
+  margin: auto;
+  width: auto;
+  text-align: justify;
+  margin-top: 15px;
+}
+.prueba1 .lista-direcciones {
+  list-style: none;
+  padding-top: 50px;
+}
+
+.prueba2 {
+  text-align: center;
+}
+.prueba2 .google {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+/* Actividades.html */
+.activ-titulo {
+  color: white;
+  text-align: center;
+  border-top: solid 1px white;
+  padding-top: 20px;
+  color: rgb(235, 173, 4);
+  font-weight: bold;
+}
+
+.row-activ {
+  text-align: justify;
+}
+.row-activ .activ-detalle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.row-activ .activ-horarios {
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(224, 207, 158);
+}
+.row-activ .activ-list {
+  text-align: center;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.651);
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+
+    .footer-container{
+        color: white;
+
+        .footer-div{
+            text-align: center;
+
+            .footer-autor{
+                font-style: italic;
+                /* color: rgb(235, 173, 4) */
+                
+                    #footer-frase{
+                        color: rgb(235, 173, 4)
+                
+                    }
+                
+            }
+
+            .footer-links{
+                color: white;
+                text-decoration: none;
+            }
+
+            .footer-titulos{
+                font-weight: bold;
+                text-transform: uppercase;
+                color: rgb(235, 173, 4);
+            }
+        
+        }
+    }

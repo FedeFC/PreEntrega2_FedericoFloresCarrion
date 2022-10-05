@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/FedeFC/PreEntrega2_FedericoFloresCarrion/issues"
   },
-  "homepage": "https://github.com/FedeFC/PreEntrega2_FedericoFloresCarrion#readme"
+  "homepage": "https://github.com/FedeFC/PreEntrega2_FedericoFloresCarrion#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
 }
