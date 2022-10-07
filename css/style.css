@@ -132,4 +132,167 @@ p {
   color: rgba(255, 255, 255, 0.651);
 }
 
+/*Staff.html*/
+.row-activ-staff {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.staf-uno {
+  /* width: 0 auto;
+  height: 0 auto; */
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+.ppp {
+  overflow: auto;
+  text-align: center;
+}
+
+.profes {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.profes .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  /* margin-top: 20px; */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.profes .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.profes .flip-card .flip-card-inner .flip-card-front, .profes .flip-card .flip-card-inner .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+.profes .flip-card .flip-card-inner .flip-card-front {
+  background-color: none;
+  color: black;
+}
+.profes .flip-card .flip-card-inner .flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.profes .flip-card .flip-card-inner .flip-card-back .staff-list {
+  list-style: none;
+  text-align: center;
+}
+.profes .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/*Clases.html*/
+.promos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.promos .titulo-clases {
+  text-align: center;
+  margin: auto;
+  color: aliceblue;
+}
+.promos .caja {
+  border: solid 2px black;
+  margin: 15px;
+  margin-left: 10px;
+  width: 250px;
+  background: #0F1012;
+  color: #f9f9f9;
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 15px;
+}
+.promos .caja .deal {
+  padding: 10px 0 0 0;
+}
+.promos .caja .deal .pack {
+  color: #e59307;
+}
+.promos .caja .deal span {
+  display: block;
+  text-align: center;
+}
+.promos .caja .deal span:first-of-type {
+  font-size: 23px;
+}
+.promos .caja .deal span:last-of-type {
+  font-size: 13px;
+}
+.promos .promo .price {
+  display: block;
+  background: #292b2e;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 17px 0 17px 0;
+}
+.promos .caja:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  border-radius: 30px;
+  border: solid 1px white;
+}
+.promos li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+.promos .scale .price {
+  color: #0789e5;
+}
+
+/*Contacto.html*/
+.container-img-contact {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-form {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.container-form .img-contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-form .img-contacto-container .img-form {
+  margin: 0 auto;
+  display: block;
+}
+.container-form .formulario {
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.container-form .formulario .boton-enviar {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

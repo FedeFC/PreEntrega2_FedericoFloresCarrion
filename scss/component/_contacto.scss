@@ -1,0 +1,41 @@
+/*Contacto.html*/
+
+.container-img-contact{
+   
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-form{
+  
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom:5px ;
+    margin-bottom: 5px;
+    
+
+    .img-contacto-container{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .img-form{
+        margin: 0 auto;
+        display: block;
+        }
+
+    }
+
+    .formulario{
+        padding-right: 20px;
+        margin-top: 10px;
+
+        .boton-enviar{
+            text-align: center;
+        }
+
+    }
+
+
+}

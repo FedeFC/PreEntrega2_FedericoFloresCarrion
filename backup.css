@@ -162,11 +162,13 @@ p{
 
 
 /* Staff.html */
+/* listo */
 .row-activ-staff{
     text-align: center;
     margin: 0 auto;
     
 }
+/* listo */
 .staf-uno{
     /* width: 0 auto;
     height: 0 auto; */
@@ -179,6 +181,7 @@ p{
     padding-top: 5px;  
 
 }
+/*listo */
 .img-div{
     width: 50%;
     /* height: 100%; */
@@ -186,17 +189,19 @@ p{
     text-align: center;
     
 }
-
+/* listo */
 .ppp{
     overflow: auto;
     text-align: center;
     
 }
+/* listo */
 .staff-list{
     list-style: none;
     text-align: center;
 }
 /* ------------- flip-card */
+/* listo */
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -208,7 +213,7 @@ p{
     margin-top: 15px;
     
   }
-  
+  /* listo */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -219,11 +224,11 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
   }
-  
+  /* listo */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+  /* listo */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -232,25 +237,25 @@ p{
     backface-visibility: hidden;
     border-radius: 20px;
   }
-  
+  /* listo */
   .flip-card-front {
     background-color:none;
     color: black;
   }
-  
+  /* listo */
   .flip-card-back {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
   }
-
+  /* listo */
   .profes{
     margin-top: 10px;
     margin-bottom: 15px;
   }
 
   /* Clases.html */
-
+/* listo */
 .titulo-clases{
     text-align: center;
     margin: auto;
@@ -258,12 +263,14 @@ p{
     
 
 }
+/* listo */
 .promos{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
    
 }
+/* listo */
 .caja{
     border: solid 2px black;
     margin:15px;
