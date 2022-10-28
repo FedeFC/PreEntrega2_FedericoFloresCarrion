@@ -1,14 +1,37 @@
+.carrete{
+    margin-top: 2px;
+    
+}
+.carrete img{
+    height: 95vh;
+    border-radius: 10px;
+}
+
 .row-dos{
+    align-items: center;
     text-align: center;
-    padding-left: 30px;
+    // padding-left: 30px;
+    margin-top: 10px;
+    margin: 0 auto;
+
+    p{
+        background-color: rgba(21, 26, 26, 0.29);
+        padding: 10px;
+        border-radius: 30px;
+        align-items: center;
+        text-align: center;
+    }
+}
+.row-dos img{
+    border-radius: 30px;
 }
 
 .imagen{
-    /* padding-left: 30px; */
+   
     padding-top: 10px;
     width: 500px  ;
     margin: auto;
-
+    
 }
 
 .caracteriticas-index{
