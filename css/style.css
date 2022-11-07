@@ -57,6 +57,13 @@ p {
   border-radius: 5px;
 }
 
+.title-index {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 50px;
+}
+
 .row-dos {
   align-items: center;
   text-align: center;
@@ -309,6 +316,10 @@ p {
 .container-img-contact {
   margin: 0 auto;
   text-align: center;
+}
+
+.contacto-container {
+  margin: 0 auto;
 }
 
 .container-form {
